@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeito de Isa - Moda Feminina</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">
+            <h1>JEITO DE ISA</h1>
+            <p>Moda feminina com seu estilo único</p>
+        </div>
+        <nav>
+            <a href="#destaques">Destaques</a>
+            <a href="#colecao">Coleção</a>
+            <a href="#sobre">Sobre</a>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <div class="banner-texto">
+            <h2>Coleção Primavera/Verão</h2>
+            <p>Peças exclusivas para mulheres que valorizam conforto e elegância</p>
+        </div>
+    </section>
+
+    <!-- Destaques -->
+    <section id="destaques" class="secao">
+        <h2>Peças em Destaque</h2>
+        <div class="produtos">
+            <!-- Produto 1 -->
+            <div class="produto">
+                <img src="img/Produto 1.png" alt="Vestido Floral">
+                <h3>Vestido Floral</h3>
+                <p class="preco">R$ 149,90</p>
+                <!-- SUBSTITUA ESTE BOTÃO -->
+                <button class="btn-comprar">
+                    <i class="fas fa-plus"></i> Adicionar
+                </button>
+            </div>
+            
+            <!-- Produto 2 -->
+            <div class="produto">
+                <img src="img/Produto 2.png" alt="Blusa de Seda">
+                <h3>Blusa de Seda</h3>
+                <p class="preco">R$ 89,90</p>
+                <!-- SUBSTITUA ESTE BOTÃO -->
+                <button class="btn-comprar">
+                    <i class="fas fa-plus"></i> Adicionar
+                </button>
+            </div>  
+            
+            <!-- Produto 3 -->
+            <div class="produto">
+                <img src="img/Produto 3.png" alt="Calça Wide Leg">
+                <h3>Calça Wide Leg</h3>
+                <p class="preco">R$ 129,90</p>
+                <!-- SUBSTITUA ESTE BOTÃO -->
+                <button class="btn-comprar">
+                    <i class="fas fa-plus"></i> Adicionar
+                </button>
+            </div>
+    </section>
+
+    <!-- Coleção Completa -->
+<section id="colecao" class="secao">
+    <div class="cabecalho-secao">
+        <h2>Nossa Coleção</h2>
+        <div class="filtros">
+            <button class="filtro ativo" data-categoria="todas">Todas</button>
+            <button class="filtro" data-categoria="vestidos">Vestidos</button>
+            <button class="filtro" data-categoria="blusas">Blusas</button>
+            <button class="filtro" data-categoria="calcas">Calças</button>
+        </div>
+    </div>
+    
+    <div class="produtos-container">
+        <!-- Os produtos serão inseridos aqui via JavaScript -->
+        <!-- ou mantenha seus produtos atuais -->
+    </div>
+</section>
+
+<!-- Sobre -->
+<section id="sobre" class="secao sobre">
+    <div class="sobre-conteudo">
+        <h2 class="titulo-destaque">Jeito de Isa</h2>
+        <p class="texto-sobre">Desde 2020, trazendo peças que celebram a feminilidade e o conforto. Cada peça é selecionada com cuidado para mulheres reais, que buscam se sentir bem em qualquer ocasião.</p>
+    </div>
+    <div class="sobre-imagem">
+        <!-- Imagem decorativa -->
+    </div>
+</section>
+
+    <!-- Carrinho de Compras -->
+<div id="carrinho" class="carrinho">
+    <div class="carrinho-conteudo">
+        <div class="carrinho-cabecalho">
+            <h3>Seu Pedido <span id="carrinho-contador">0</span></h3>
+            <button class="fechar-carrinho">&times;</button>
+        </div>
+        <div id="carrinho-itens" class="carrinho-itens">
+            <!-- Itens serão adicionados aqui -->
+        </div>
+        <div class="carrinho-total">
+            <p>Total: <span id="carrinho-total">R$ 0,00</span></p>
+            <button id="finalizar-pedido">Finalizar pelo WhatsApp</button>
+            <button id="limpar-carrinho">Limpar</button>
+        </div>
+    </div>
+</div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="contato">
+            <h3>Entre em Contato</h3>
+            <p><i class="fab fa-whatsapp"></i> (88) 9292-7689</p>
+            <p><i class="fas fa-envelope"></i> contato@jeitodeisa.com.br</p>
+        </div>
+        <div class="redes-sociais">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+        </div>
+    </footer>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/+558892927689" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
